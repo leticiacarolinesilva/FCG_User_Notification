@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserNotification", "UserNotification\UserNotification.csproj", "{6595EF81-85E0-445B-86B9-5D658094378F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6595EF81-85E0-445B-86B9-5D658094378F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6595EF81-85E0-445B-86B9-5D658094378F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6595EF81-85E0-445B-86B9-5D658094378F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6595EF81-85E0-445B-86B9-5D658094378F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C6FCFA02-F411-45F7-B341-C7E0FCAC8A88}
+	EndGlobalSection
+EndGlobal
