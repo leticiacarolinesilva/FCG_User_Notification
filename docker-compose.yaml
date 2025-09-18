@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+  usernotification:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: usernotification-func
+    ports:
+      - "5013:80"
+    environment:
+      AzureWebJobsStorage: UseDevelopmentStorage=true
+      FUNCTIONS_WORKER_RUNTIME: dotnet-isolated
+      EmailPassword: 
