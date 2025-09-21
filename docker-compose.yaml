@@ -11,7 +11,7 @@ services:
     environment:
       AzureWebJobsStorage: UseDevelopmentStorage=true
       FUNCTIONS_WORKER_RUNTIME: dotnet-isolated
-      EmailPassword: rakg ewkn rqkn hptx
+      EmailPassword: teste
     networks:
       - fcg_network
     restart: unless-stopped
